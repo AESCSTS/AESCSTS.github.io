@@ -1,0 +1,500 @@
+/*-------- Общие стили ------------*/
+
+@font-face {
+    font-family: Huntsman;
+    src: url('../fonts/Huntsman.otf');
+}
+
+@font-face {
+    font-family: Exo;
+    src: url('../fonts/Exo.otf');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans.ttf');
+}
+
+body, html, footer {
+    padding: 0;
+    margin: 0;
+    color: #5e5e5e;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: url('../images/promo.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.headerInside {
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: url('../images/origami-logo.svg') no-repeat;
+    background-size: contain;
+}
+
+.logomain {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.SiteName {
+    text-align: right;
+    font-family: Huntsman, sans-serif;
+    float: left;
+    margin-left: 15px;
+    font-size: 1.6em;
+    line-height: 100px;
+    color: #fff;
+}
+
+#menu {
+    height: 100px;
+    float: right;
+    display: flex;
+    align-items: center;
+	flex-direction: row;
+}
+
+#menu a {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    text-decoration: none;
+     font-size: 1.4em;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0 20px;
+    height: 100px;
+    line-height: 100px;
+}
+
+#menu a:hover {
+    background: #D2691E;
+}
+
+.menu a:last-child {
+    border-left: none;
+}
+
+.content {
+	position: relative;
+    min-height: 650px;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.contentContact {
+	position: relative;
+    min-height: 650px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.leftBlock {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	padding: 0 10px;
+	float: left;
+	background: url("../images/AESC.jpg") no-repeat;
+	background-size: contain;
+}
+
+.leftBlockContact {
+	position: relative;
+	width: 500px;
+	height: 600px;
+	padding: 0 10px;
+	float: left;
+	background: url("../images/Phone.png") no-repeat;
+	background-size: 100%;
+}
+
+.Dop {
+	display: table;
+    position: relative;
+	width: 560px;
+	height: 200px;
+	margin: auto 0;
+	float: left;
+	color: #fff;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.rightBlock {
+	position: relative;
+	width: 560px;
+	padding: 0 10px;
+	float: left;
+	color: #fff;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.rightBlockContact {
+	display: table-cell;
+	position: relative;
+	width: 560px;
+	height: 200px;
+	margin: auto 0;
+	float: left;
+	color: #fff;
+	font-size: 1.1em;
+	text-align: center;
+	/*transform: translateY(60%);*/
+}
+
+.rightBlock a, .rightBlockContact a {
+	font-weight: bold;
+	color: #fff;
+}
+
+.rightBlock a:hover, .rightBlockContact a:hover {
+	font-weight: bold;
+	color: #e6e09a;;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: 200px;
+    background: url('../images/battom.jpg');
+    color: #e6e09a;
+}
+
+.footerInside {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.bottom {
+	position: relative;
+	padding: 20px 0;
+	float: left;
+}
+
+.menu {
+	position: relative;
+	float: right;
+}
+
+.menu ul {
+	list-style-type: none;
+}
+
+.menu li{
+	height: 20px;
+	padding: 5px 0;
+}
+
+.menu a {
+	display: block;
+    font-family: "Open Sans", sans-serif;
+    color: #e6e09a;
+    text-decoration: none;
+    /*font-size: 1.3em;*/
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+/*--------------- конец общих стилей ---------------*/
+
+/*--------------- стиль главной страницы -----------*/
+
+/*--------------- конец стиля главной страницы ------*/
+
+/*--------------- стиль страницы авторов--------------------*/
+
+.LeonardoImg {
+	width: 360px;
+    height: 250px;
+    float: left;
+    /*clear: left;*/
+	background: url('../images/Leonardo.png') no-repeat;
+	background-size: contain;
+}
+
+.VanGogImg {
+	width: 360px;
+    height: 250px;
+    float: left;
+    /*clear: left;*/
+	background: url('../images/VanGog.png') no-repeat;
+	background-size: contain;
+}
+
+.SantiImg {
+	width: 360px;
+    height: 250px;
+    float: left;
+    /*clear: left;*/
+	background: url('../images/Santi.png') no-repeat;
+	background-size: contain;
+}
+
+.LeonardoInfo, .VanGogInfo, .SantiInfo {
+	position: relative;
+	width: 345px;
+	height: 250px;
+	float: left;
+	padding: 10px 10px 0 0;
+	color: #fff;
+}
+
+.LeonardoInfo a, .VanGogInfo a, .SantiInfo a {
+	color: #fff;
+}
+
+.LeonardoInfo a:hover, .VanGogInfo a:hover, .SantiInfo a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.GalereyPhotoMini {
+	position: relative;
+	width: 100%;
+	height: 1070px;
+	background: url('../images/GalereyPhotoMini.jpg');
+}
+
+.GalereyPhotoMiniP {
+	position: relative;
+	width: 100%;
+	height: 1650px;
+	background: url('../images/GalereyPhotoMini.jpg');
+}
+
+.GalereyPhotoMiniPmid {
+	position: relative;
+	width: 100%;
+	height: 1200px;
+	background: url('../images/GalereyPhotoMini.jpg');
+}
+
+.GalereyPhotoMiniPnormal {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url('../images/GalereyPhotoMini.jpg');
+}
+
+.authorPictureL {
+	width: 300px;
+	height: 400px;
+	background: url('../images/Leonardo.png') no-repeat;
+	background-size: contain;
+	float: left;
+}
+.authorPictureV {
+	width: 300px;
+	height: 400px;
+	background: url('../images/VanGog.png') no-repeat;
+	background-size: contain;
+	float: left;
+}
+.authorPictureS {
+	width: 300px;
+	height: 400px;
+	background: url('../images/Santi.png') no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.authorInfo {
+	position: relative;
+	width: 650px;
+	height: 100%;
+	float: right;
+	color: #fff;
+}
+
+.Abz {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.authorsWorks {
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: bold;
+	float: left;
+}
+
+.authorsWorks a{
+	font-size: 0.71em;
+	text-decoration: none;
+	color: #e6e09a;
+}
+
+.authorsWorks a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+/*--------------------- конец стилей авторов-------------------*/
+
+/*--------------------- начало стилей картин--------------------*/
+
+.PictureThisMonaLiza {
+    width: 300px;
+	height: 500px;
+	background: url('../images/MonoLiza.png') no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.PictureThisMadonnaRocks {
+    width: 300px;
+	height: 500px;
+	background: url('../images/MadonnaRocks.png') no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.PictureThisMadonnaRocks2 {
+    width: 300px;
+	height: 500px;
+	background: url('../images/MadonnaRocks2.png') no-repeat;
+	background-size: contain;
+	float: left;
+	clear: left;
+}
+
+.PictureThisSicretEvn {
+    width: 600px;
+	height: 300px;
+	background: url('../images/SicretEvn.png') no-repeat;
+	background-size: contain;
+	float: left;
+	text-align: center;
+}
+
+.PictureThisASchool {
+    width: 350px;
+	height: 300px;
+	background: url('../images/ASchool.png') no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.PictureThisAutoPortret {
+    width: 350px;
+	height: 350px;
+	background: url('../images/AutoPortret.png') no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.PictureThisNightCoffe {
+    width: 400px;
+	height: 400px;
+	background: url('../images/NightCoffe.png') no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.PictureThisSicMadonna {
+    width: 400px;
+	height: 400px;
+	background: url('../images/SicMadonna.png') no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.PictureThisTransformation {
+    width: 400px;
+	height: 450px;
+	background: url('../images/Transformation.png') no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.PictureThisStarsNight {
+    width: 350px;
+	height: 300px;
+	background: url('../images/StarsNight.png') no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.Aristotel {
+	width: 350px;
+	height: 320px;
+	background: url('../images/Aristotel.png') no-repeat;
+	background-size: contain;
+	float: right;
+	text-align: right;
+}
+.Piph {
+	width: 330px;
+	padding: 0 5px;
+	height: 320px;
+	background: url('../images/Piphagor.png') no-repeat;
+	background-size: contain;
+	float: right;
+	text-align: right;
+}
+
+.AuthorOfThis {
+	position: relative;
+	float: left;
+	padding: 10px 0;
+}
+
+.AuthorOfThis a{
+	color: #fff;
+	font-weight: bold;
+}
+
+.InformationAbout {
+    position: relative;
+	width: 700px;
+	height: 100%;
+	float: right;
+	color: #fff;
+}
+
+.InformationAbout a{
+	color: #fff;
+	font-weight: bold;
+}
+
+.InformationAbout a:hover{
+	color: #e6e09a;
+	font-weight: bold;
+}
+
+.NameOfPicture {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-family: Huntsman, sans-serif;
+	color: #e6e09a;
+	font-size: 2.0em;
+	font-weight: bold;
+}
